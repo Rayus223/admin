@@ -2,10 +2,10 @@ import axios from 'axios';
 import { message } from 'antd';
 import ErrorHandler from '../utils/handlers/errorHandler';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://api.dearsirhometuition.com';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'https://api.dearsirhometuition.com',
     timeout: 30000,
 });
 
