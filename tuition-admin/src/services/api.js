@@ -5,7 +5,7 @@ import ErrorHandler from '../utils/handlers/errorHandler';
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://api.dearsirhometuition.com';
 
 const api = axios.create({
-    baseURL: 'https://api.dearsirhometuition.com',
+    baseURL: 'API_BASE_URL',
     timeout: 30000,
 });
 
