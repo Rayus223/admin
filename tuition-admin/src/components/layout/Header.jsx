@@ -18,7 +18,7 @@ const Header = () => {
 
   // Initialize WebSocket connection
   useEffect(() => {
-    const websocket = new WebSocket('ws://localhost:5000');
+    const websocket = new WebSocket('ws://https://api.dearsirhometuition.com');
     
     websocket.onopen = () => {
       console.log('Header WebSocket Connected');
