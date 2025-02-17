@@ -170,7 +170,7 @@ const fetchData = async (showLoadingState = true) => {
 
        // Setup WebSocket connection
   useEffect(() => {
-    const websocket = new WebSocket('wss://api.dearsirhometuition.com');
+    const websocket = new WebSocket('ws://localhost:5000');
     
     websocket.onopen = () => {
       console.log('WebSocket Connected');
